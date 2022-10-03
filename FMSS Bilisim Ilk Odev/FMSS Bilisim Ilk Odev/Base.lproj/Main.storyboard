@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ijq-9Q-ayf">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FMSS_Bilisim_Ilk_Odev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemonLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ISL-1m-BSm">
+                                <rect key="frame" x="40" y="619" width="348" height="112"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zm8-9M-1r3">
+                                <rect key="frame" x="40" y="771" width="348" height="51"/>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.97647058959999999" green="0.97647058959999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="strokeColor" systemColor="systemBackgroundColor"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Register Pokedex">
+                                            <attributes>
+                                                <font key="NSFont" size="32" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="dOM-ju-Kup" kind="show" id="Phv-8m-eKJ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8L-rS-2eB">
+                                <rect key="frame" x="40" y="192" width="348" height="23"/>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="emX-rh-s9d">
+                                <rect key="frame" x="40" y="270" width="348" height="23"/>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdr-cP-56V">
+                                <rect key="frame" x="40" y="348" width="348" height="23"/>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRg-3o-GuQ">
+                                <rect key="frame" x="40" y="114" width="348" height="23"/>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" systemColor="systemPurpleColor"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.054901960784313725" green="0.12156862745098039" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="fdr-cP-56V" firstAttribute="top" secondItem="emX-rh-s9d" secondAttribute="bottom" constant="55" id="6Qg-hX-aed"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fdr-cP-56V" secondAttribute="trailing" constant="40" id="8fw-b7-pMd"/>
+                            <constraint firstItem="emX-rh-s9d" firstAttribute="top" secondItem="A8L-rS-2eB" secondAttribute="bottom" constant="55" id="8kr-Cv-rVJ"/>
+                            <constraint firstItem="Zm8-9M-1r3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="9g2-hU-oWH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Zm8-9M-1r3" secondAttribute="trailing" constant="40" id="Jjo-Ke-Ikm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ISL-1m-BSm" secondAttribute="trailing" constant="40" id="Kye-TO-CkG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zm8-9M-1r3" secondAttribute="bottom" constant="50" id="QRX-Jr-sqe"/>
+                            <constraint firstItem="Zm8-9M-1r3" firstAttribute="top" secondItem="ISL-1m-BSm" secondAttribute="bottom" constant="40" id="QbN-UJ-cyW"/>
+                            <constraint firstItem="aRg-3o-GuQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="RdG-aq-Q7y"/>
+                            <constraint firstItem="A8L-rS-2eB" firstAttribute="top" secondItem="aRg-3o-GuQ" secondAttribute="bottom" constant="55" id="TAG-t9-SI7"/>
+                            <constraint firstItem="fdr-cP-56V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Uzv-tI-Dgu"/>
+                            <constraint firstItem="emX-rh-s9d" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="V5e-Ak-OMx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aRg-3o-GuQ" secondAttribute="trailing" constant="40" id="VEq-qH-5m5"/>
+                            <constraint firstItem="A8L-rS-2eB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="dlB-ub-1SC"/>
+                            <constraint firstItem="aRg-3o-GuQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="gru-Ne-Ot1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="emX-rh-s9d" secondAttribute="trailing" constant="40" id="mbu-8P-Gvv"/>
+                            <constraint firstItem="ISL-1m-BSm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="ptX-t3-o5h"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="A8L-rS-2eB" secondAttribute="trailing" constant="40" id="xu4-G9-OHA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Zi3-gK-1Oq"/>
+                    <connections>
+                        <outlet property="ageLabel" destination="emX-rh-s9d" id="b0n-hQ-CAH"/>
+                        <outlet property="favoritePokemonLabel" destination="fdr-cP-56V" id="1EY-Fh-X0G"/>
+                        <outlet property="nameLabel" destination="aRg-3o-GuQ" id="XFp-TI-2Gb"/>
+                        <outlet property="surnameLabel" destination="A8L-rS-2eB" id="X8k-lx-HME"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1923.3644859813082" y="66.738660907127439"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="d0X-gu-q03">
+            <objects>
+                <viewController id="dOM-ju-Kup" customClass="SecondViewController" customModule="FMSS_Bilisim_Ilk_Odev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a3k-Cx-ldd">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAj-DH-vHc">
+                                <rect key="frame" x="40" y="523" width="348" height="49"/>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="capsule">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="strokeColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Register">
+                                            <attributes>
+                                                <font key="NSFont" size="30" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="registerButton:" destination="dOM-ju-Kup" eventType="touchUpInside" id="22K-2R-qeN"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Surname" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x72-MJ-QGU">
+                                <rect key="frame" x="40" y="195" width="348" height="46"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="t9C-08-ZCd">
+                                <rect key="frame" x="40" y="296" width="348" height="46"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Favorite Pokemon" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GLM-9m-XIW">
+                                <rect key="frame" x="40" y="397" width="348" height="46"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BZ2-di-zrX">
+                                <rect key="frame" x="40" y="94" width="348" height="46"/>
+                                <color key="textColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6SB-Ox-CJ7"/>
+                        <color key="backgroundColor" red="0.054901960780000002" green="0.1215686275" blue="0.25098039220000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="GLM-9m-XIW" firstAttribute="leading" secondItem="6SB-Ox-CJ7" secondAttribute="leading" constant="40" id="700-dL-PJL"/>
+                            <constraint firstItem="t9C-08-ZCd" firstAttribute="top" secondItem="x72-MJ-QGU" secondAttribute="bottom" constant="55" id="7iZ-6K-5AD"/>
+                            <constraint firstItem="6SB-Ox-CJ7" firstAttribute="trailing" secondItem="CAj-DH-vHc" secondAttribute="trailing" constant="40" id="9WW-fM-MEN"/>
+                            <constraint firstItem="x72-MJ-QGU" firstAttribute="top" secondItem="BZ2-di-zrX" secondAttribute="bottom" constant="55" id="BZY-S2-cNv"/>
+                            <constraint firstItem="GLM-9m-XIW" firstAttribute="top" secondItem="t9C-08-ZCd" secondAttribute="bottom" constant="55" id="F20-ls-AIe"/>
+                            <constraint firstItem="6SB-Ox-CJ7" firstAttribute="trailing" secondItem="GLM-9m-XIW" secondAttribute="trailing" constant="40" id="ID6-8S-Rag"/>
+                            <constraint firstItem="6SB-Ox-CJ7" firstAttribute="trailing" secondItem="x72-MJ-QGU" secondAttribute="trailing" constant="40" id="KIY-F7-cmu"/>
+                            <constraint firstItem="6SB-Ox-CJ7" firstAttribute="trailing" secondItem="t9C-08-ZCd" secondAttribute="trailing" constant="40" id="PS1-QL-Itz"/>
+                            <constraint firstItem="BZ2-di-zrX" firstAttribute="leading" secondItem="6SB-Ox-CJ7" secondAttribute="leading" constant="40" id="RZi-OQ-b0r"/>
+                            <constraint firstItem="CAj-DH-vHc" firstAttribute="top" secondItem="GLM-9m-XIW" secondAttribute="bottom" constant="80" id="SSQ-PR-QGP"/>
+                            <constraint firstItem="6SB-Ox-CJ7" firstAttribute="trailing" secondItem="BZ2-di-zrX" secondAttribute="trailing" constant="40" id="UIf-6W-IFd"/>
+                            <constraint firstItem="CAj-DH-vHc" firstAttribute="leading" secondItem="6SB-Ox-CJ7" secondAttribute="leading" constant="40" id="ll4-eQ-TAV"/>
+                            <constraint firstItem="BZ2-di-zrX" firstAttribute="top" secondItem="6SB-Ox-CJ7" secondAttribute="top" constant="50" id="meM-ne-n8p"/>
+                            <constraint firstItem="t9C-08-ZCd" firstAttribute="leading" secondItem="6SB-Ox-CJ7" secondAttribute="leading" constant="40" id="szc-9v-Lof"/>
+                            <constraint firstItem="x72-MJ-QGU" firstAttribute="leading" secondItem="6SB-Ox-CJ7" secondAttribute="leading" constant="40" id="zFf-6t-chK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="G4C-Vb-CH8"/>
+                    <connections>
+                        <outlet property="FavoritePokemonTextField" destination="GLM-9m-XIW" id="ra6-mx-dmQ"/>
+                        <outlet property="ageTextField" destination="t9C-08-ZCd" id="zcq-rN-bLb"/>
+                        <outlet property="nameTextField" destination="BZ2-di-zrX" id="hp3-kh-D1g"/>
+                        <outlet property="surnameTextField" destination="x72-MJ-QGU" id="apc-gj-wTr"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="toFirstViewController" id="LEQ-9l-QDt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kkp-Un-d1I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2823.3644859813085" y="66.738660907127439"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Nwi-PD-vRh">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ijq-9Q-ayf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sok-5R-IMH">
+                        <rect key="frame" x="0.0" y="44" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nrO-sd-J2R"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRE-eg-fWH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1023.3644859813083" y="66.738660907127439"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Phv-8m-eKJ"/>
+        <segue reference="LEQ-9l-QDt"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="pokemonLogo" width="253" height="112"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
