@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="163" id="KGk-i7-Jjw" customClass="PostListTableViewCell" customModule="HakanIssevenTabApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="163"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="163"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rfk-bB-iFO">
+                        <rect key="frame" x="8" y="9" width="336" height="154"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="1000" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvE-WC-V21">
+                                <rect key="frame" x="8" y="16" width="320" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7E-z3-ARx">
+                                <rect key="frame" x="8" y="44.5" width="320" height="101.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="U7E-z3-ARx" secondAttribute="bottom" constant="8" id="9ZI-WV-1iJ"/>
+                            <constraint firstItem="U7E-z3-ARx" firstAttribute="leading" secondItem="Rfk-bB-iFO" secondAttribute="leading" constant="8" id="Dgk-cC-Blr"/>
+                            <constraint firstAttribute="trailing" secondItem="xvE-WC-V21" secondAttribute="trailing" constant="8" id="MTw-2p-px0"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="PUp-Kt-8It"/>
+                            <constraint firstItem="xvE-WC-V21" firstAttribute="leading" secondItem="Rfk-bB-iFO" secondAttribute="leading" constant="8" id="clb-Wu-x0S"/>
+                            <constraint firstItem="U7E-z3-ARx" firstAttribute="top" secondItem="xvE-WC-V21" secondAttribute="bottom" constant="8" id="iWt-c2-9BA"/>
+                            <constraint firstItem="xvE-WC-V21" firstAttribute="top" secondItem="Rfk-bB-iFO" secondAttribute="top" constant="16" id="lOe-Tt-xea"/>
+                            <constraint firstAttribute="trailing" secondItem="U7E-z3-ARx" secondAttribute="trailing" constant="8" id="tAr-bc-yxo"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Rfk-bB-iFO" secondAttribute="bottom" id="GrX-ZD-xYn"/>
+                    <constraint firstItem="Rfk-bB-iFO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="aPP-fn-gIx"/>
+                    <constraint firstAttribute="trailing" secondItem="Rfk-bB-iFO" secondAttribute="trailing" constant="9" id="tz7-97-aoP"/>
+                    <constraint firstItem="Rfk-bB-iFO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="vpU-5G-Sr0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="PostDescLabel" destination="U7E-z3-ARx" id="hbU-so-2cv"/>
+                <outlet property="PostTitleLabel" destination="xvE-WC-V21" id="i91-nI-TEj"/>
+                <outlet property="containerView" destination="Rfk-bB-iFO" id="5v2-JA-4r5"/>
+            </connections>
+            <point key="canvasLocation" x="161.59420289855075" y="116.18303571428571"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+module Pods_HakanIssevenTabApp {
+  umbrella header "Pods-HakanIssevenTabApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
